@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'eHRFaceSDK'
-  s.version          = '3.2.7.1-beta'
+  s.version          = '3.2.7.1-beta2'
   s.summary          = 'A short description of eHRFaceSDK.'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
