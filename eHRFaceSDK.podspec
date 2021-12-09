@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'eHRFaceSDK'
-  s.version          = '3.2.7.1-beta2'
+  s.version          = '3.2.11'
   s.summary          = 'A short description of eHRFaceSDK.'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
@@ -11,7 +11,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://gitee.com/bizhanlu/eHRFaceSDK'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '1217461933@qq.com' => '1217461933@qq.com' }
-  s.source           = { :git => 'https://gitee.com/bizhanlu/eHRFaceSDK.git', :tag => 'v3.2.7.1-beta' }
+  s.source           = { :git => 'https://gitee.com/bizhanlu/eHRFaceSDK.git', :tag => 'v3.2.11' }
 
   s.ios.deployment_target = '9.0'
   s.vendored_framework = 'eHRFaceSDK/Classes/HRFaceSDK.framework'
@@ -25,5 +25,6 @@ TODO: Add long description of the pod here.
   s.dependency 'MJRefresh'
   s.dependency 'MJExtension'
   s.dependency 'WPAttributedMarkup'
+  s.dependency 'CTAssetsPickerController','~> 3.3.0'
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
 end
